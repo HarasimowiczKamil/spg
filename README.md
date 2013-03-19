@@ -1,4 +1,2 @@
-spg
+App
 ===
-
-Static Page Generator

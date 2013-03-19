@@ -1,0 +1,24 @@
+{ 
+    "name" : "spg", 
+    "description" : "Static Page Generator",
+    "author" : "Harasimowicz Kamil <mifczu@gmail.com>",
+    "tags" : ["markdown", "html", "generator", "static", "page", "site", "layout", "templates"],
+    "keywords": ["markdown", "html", "generator", "static", "page", "site", "layout", "templates"],
+    "dependencies": {
+        "multilevel-ini": "*",
+        "node-simple-log": "*",
+        "underscore": "*",
+        "swig": "0.13.5",
+        "marked": "0.2.8",
+        "node-fs": "*"
+    },
+    "preferGlobal": true,
+    "main": "./index",
+    "bin": "./bin/spg",
+    "man": "./man/spg.1",
+    "scripts": {
+        "start": "node index"
+    },
+    "version" : "0.1.0",
+    "engines" : ["node >= 0.6.x"]
+}
