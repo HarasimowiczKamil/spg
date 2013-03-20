@@ -99,7 +99,7 @@ In "public" should appear html files.
 
 Configure your webserwer and is done.
 
-HELP
+Help
 ----
 
 Create a issue if something is not clear.
