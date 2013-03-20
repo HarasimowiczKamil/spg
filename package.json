@@ -1,9 +1,16 @@
 { 
     "name" : "spg", 
     "description" : "Static Page Generator",
-    "author" : "Harasimowicz Kamil <mifczu@gmail.com>",
+    "author" : {
+        "author": "Harasimowicz Kamil",
+        "email": "mifczu@gmail.com"
+    },
     "tags" : ["markdown", "html", "generator", "static", "page", "site", "layout", "templates"],
     "keywords": ["markdown", "html", "generator", "static", "page", "site", "layout", "templates"],
+    "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:HarasimowiczKamil/spg.git"
+    },
     "dependencies": {
         "multilevel-ini": "*",
         "node-simple-log": "*",
