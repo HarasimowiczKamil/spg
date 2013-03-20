@@ -47,7 +47,7 @@ config.templateFile = view/about.html
 config.fileName = about.html
 ```
 
-Create templates in `view` dir [http://paularmstrong.github.com/swig/docs/](How to create templates files)
+Create templates in `view` dir [How to create templates files](http://paularmstrong.github.com/swig/docs/)
 If you want use article's list in template, you must write something like this:
 
 ```html
