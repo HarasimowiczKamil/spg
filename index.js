@@ -1,6 +1,6 @@
 global._und = require('underscore')._;
 global.log = require('node-simple-log').log;
-global.appRoot = process.argv[1].match(/(.*\/)[^\/]+$/)[1];
+global.appRoot = process.cwd();
 
 var app = require('./lib/Application.js');
 
