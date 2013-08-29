@@ -3,6 +3,8 @@ Spg - Static Page Generator
 
 Simple generator static pages. To generate use swig templates and markdown files to create content. Spg allows you to define multiple pages and a series from specified directory. Only what you need is other web server (like apache or nginx), define templates in swig and configuration ini file.
 
+[![NPM](https://nodei.co/npm/spg.png?downloads=true&stars=true)](https://nodei.co/npm/spg/)
+
 Install
 -------
 
